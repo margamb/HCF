@@ -1,0 +1,409 @@
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    width: 25%;
+    align-self: flex-end;
+    margin-bottom: 8%;
+    border-width: 1px;
+    border-radius: 100px;
+    padding: 10px 20px;
+    /*transition: background 0.1s ease, border-color 0.1s ease;*/
+    cursor: pointer;
+    font-family: "InterAdobe Garamond Prostate";
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    background-color: #86218E;     
+}
+
+.button:hover {
+    /*opacity: 0.5;*/
+    background-color: white;
+    color:  #86218E;
+}
+
+body {
+    font-family: "InterAdobe Garamond Prostate";
+    font-weight: 400;
+    color: #808285; 
+}
+
+p {
+    margin: 0;    
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    width: 70%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+ 
+.subtitle1 {
+    font-weight: 600;
+    align-self: center;    
+}
+
+.subtitle2 {
+    font-weight: 400;
+    align-self: center;
+    font-size: 12px;
+    padding-top: 2%;
+}
+
+.social {
+    width: 70%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 23%;
+    list-style: none;
+    display: flex;
+}
+
+.facebook {
+    width: 35%;
+    cursor: pointer;
+}
+
+.twitter {
+    width: 35%;
+    cursor: pointer;
+}
+
+.instagram {
+    width: 35%;
+    cursor: pointer;
+}
+
+.magazine {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center; 
+    margin-left: 5%;
+}
+
+.magazineold {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center; 
+    padding-top: 10%;
+    margin-left: 10%;
+}
+
+
+.photo-magazine {
+    width: 50%;
+}
+
+.text-magazine {
+    width: 45%;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: stretch;
+    padding-top: 5%;
+    padding-bottom: 5%;   
+}
+
+.date {
+    align-self: flex-start;
+    justify-content: center;
+    font-weight: 600;
+    color: #808285;
+    padding-left: 10%;
+    font-size: 15px;   
+}
+
+.resume {
+    color: #808285; 
+    padding-left: 10%;
+    align-self: center;
+    font-size: 15px;   
+}
+
+.download {
+    width: 30%; 
+    cursor: pointer;  
+}
+
+.download:hover {
+    opacity: 0.5;
+}
+
+.read {
+    width: 30%;
+    cursor: pointer;  
+}
+
+.read:hover {
+    opacity: 0.5;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.container1 {
+    width: 90%;
+    height: 200%;
+    padding-top: 5%;
+    margin-top :10%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    /*background: linear-gradient(rgb(35, 49, 76), rgb(13, 21, 36));*/
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #808285;
+    border-top: 1px solid #808285;
+}
+
+.group-logos {
+    width: 90%;
+    margin-top :5%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #808285;
+}
+
+.marga {
+    width: 90%;
+    margin-top :5%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    background-color: white;
+    text-align: center;
+}
+
+p, 
+.marga {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.link {
+    color: #000;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.edition {
+    width: 45%;
+    cursor: pointer;
+
+}
+
+.logos {
+    width: 10%;
+    cursor: pointer;
+}
+
+
+.edition {
+    text-align: center;
+}
+
+.photo-footer {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 601px) {
+    .subtitle1 {
+        font-size: 25px;
+    }
+
+    .subtitle2 {
+        font-size: 19px;
+    }
+
+    .social {
+        padding-left: 24%;
+    }
+
+    .facebook {
+        width: 25%;
+    }
+    
+    .twitter {
+        width: 25%;
+    }
+    
+    .instagram {
+        width: 25%;
+    }
+
+    .date {
+        font-size: 20px;
+    }
+
+    .resume {
+        font-size: 19px;
+    }
+
+    .download {
+        width: 25%;
+    }
+
+    .read {
+        width: 25%;
+    }
+
+    p, .marga {
+        font-size: 15px;
+    }
+
+    .logos {
+       width: 7%; 
+    }
+}
+
+@media only screen and (min-width: 901px) {
+
+    .social {
+        padding-left: 25%;
+    }
+
+    .facebook {
+        width: 20%;
+    }
+    
+    .twitter {
+        width: 20%;
+    }
+    
+    .instagram {
+        width: 20%;
+    }
+
+    .magazine {
+        width: 80%;
+        padding-left: 10%;
+    }
+
+    .magazineold {
+        width: 40%;
+        margin-left: 5%;
+
+    }
+
+    .all-magazineold {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .logos {
+        width: 5%;
+    }
+
+    .edition p {  
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (min-width: 1201px) {
+
+    .header {
+        width: 40%;
+        height: auto;
+        margin-top: 5%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .magazine
+    .date {
+        font-size: 22px;
+    }
+
+    .magazine
+    .resume {
+        font-size: 20px;
+    }
+
+    .edition p {  
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .facebook {
+        width: 14%;
+    }
+    
+    .twitter {
+        width: 14%;
+    }
+    
+    .instagram {
+        width: 14%;
+    }
+
+    .magazineold {
+        width: 20%;
+        margin-left: 5%;
+    }
+
+    .date {
+        font-size: 17px;
+    }
+
+    .resume {
+        font-size: 16px;
+    }
+
+    .magazineold {
+        width: 27%;
+    }
+
+    .magazine {
+        width: 74%;
+        padding-left: 15%;
+    }
+
+    .logos {
+        width: 3%;
+    }
+
+    .edition {
+        width: 30%;
+    }
+}
+
